@@ -1,0 +1,97 @@
+/* Gradient background for the body */
+body {
+  background-color: #2b2b2b;
+  background-image: linear-gradient(135deg, #2b2b2b 0%, #9d9eaa 100%);
+}
+/* Coloring for p tags */
+p {
+  color: #ffffff;
+}
+/* Coloring for card text */
+.folio-text {
+  color: #000000;
+}
+/* Coloring for heading on Portfolio and Contact pages */
+h1 {
+  font-family: 'Spartan', sans-serif;
+  color: #facfad;
+}
+/* Nav Background color */
+.navbar-custom {
+  background-color: #263547;
+}
+/* Color, font and weight for branding on navbar  */
+.navbar-custom .navbar-brand {
+  color: #facfad;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+}
+/* Color and font of nav links */
+.navbar-custom .nav-link {
+  color: #facfad;
+  font-family: 'Spartan', sans-serif;
+}
+/* Margin for profile, portfolio and contact form  */
+.profile, .contact-form, .portfolio {
+  margin-top: 30px;
+}
+/* Color and margin for 'About Me' header */
+.about-me {
+  color: #facfad;
+  font-family: 'Spartan', sans-serif;
+  margin-top: 10px;
+}
+.contact-info {
+  color: #ffffff;
+  list-style: none;
+  font-family: 'Spartan', sans-serif;
+}
+/* Social Media links */
+.social {
+  color: #ffffff;
+  margin-left: 10px;
+  padding-left: 15px;
+}
+/* Color for buttons */
+.btn, button {
+  margin-top: 5px;
+  background-color: #263547 !important;
+  border: #263547 !important;
+}
+/* When hovering over button, the color changes to #facfad */
+.btn-primary:hover {
+  background-color: #facfad !important;
+  border: #facfad;
+}
+/* Padding for portfolio cards */
+.row-1 {
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+/* Arrows of Slider */
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .contact-card {
+      width: 18rem;
+  }
+  body {
+      background-color: #f8f8f8;
+    }
+}
+
+@media screen and (min-width: 400px) {
+  .contact-card {
+      width: 10rem;
+  }
+  body {
+    background-color: #f8f8f8;
+  }
+}
